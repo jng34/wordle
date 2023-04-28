@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Comment from './Comment';
 import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
+
 
 function Liker() {
   const [likes, setLikes] = useState(0);
